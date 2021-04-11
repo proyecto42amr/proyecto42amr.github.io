@@ -82,7 +82,7 @@ async function guarda(evt) {
         formData, "matricula").trim();  
     const nombre = getString(
       formData, "nombre").trim();
-    const telefono = getInteger(
+    const telefono = getInt(
       formData, "telefono").trim();
     const grupo = getString(
       formData, "grupo").trim();
