@@ -7,9 +7,6 @@
   --col-active: #4646462c;
   --color-header: white;
   --colorMiNav: white;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-
 }
 
 body {
@@ -24,8 +21,8 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  background-color:
+    var(--color-header);
 }
 
 .herramientas {
@@ -37,20 +34,14 @@ header {
   margin-top: 0.5rem;
   padding-bottom: 0.5rem;
   gap: 0.5rem;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 header input {
   flex-grow: 1;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 h1 {
   margin: 0.5rem 0;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 figure img {
@@ -62,8 +53,6 @@ p label {
   display: block;
   font-weight: bold;
   font-size: 0.7rem;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 p label>* {
@@ -72,6 +61,4 @@ p label>* {
   font-size: 1rem;
   box-sizing: border-box;
   width: 100%;
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
