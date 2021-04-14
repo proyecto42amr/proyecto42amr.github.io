@@ -8,6 +8,3 @@ class MiFooter
       </p>`;
   }
 }
-customElements.define(
-  "mi-footer", MiFooter);
-© 2021 GitHub, Inc.
